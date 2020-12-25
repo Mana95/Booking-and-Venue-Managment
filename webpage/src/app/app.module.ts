@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ScheduleOfCoachComponent } from './_layout/schedule-of-coach/schedule-of-coach.component';
 import { ContactUsComponent } from './_layout/contact-us/contact-us.component';
 import { MainLayoutComponent } from './_layout/main-layout/main-layout.component';
+import { NavBarComponent } from './_layout/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ScheduleOfCoachComponent,
     ContactUsComponent,
-    MainLayoutComponent
+    MainLayoutComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
